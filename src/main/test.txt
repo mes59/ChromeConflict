@@ -1,0 +1,8 @@
+Testing out my VIMscript that autoadds to git
+
+Pushing different files together
+
+Trying something different
+
+
+

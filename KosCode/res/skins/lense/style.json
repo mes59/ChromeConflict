@@ -1,0 +1,21 @@
+{
+	"buttons":
+	[
+		{"placeholder": true},
+		{
+			"name": "button_1", "width": 1, "height": 3,
+			"frames": [{"x": 0, "y": 0}, {"x": 0, "y": 1}, {"x": 0, "y": 2}],
+			"font": "neuropol-20", "colors": ["454545", "AA0000", "FF0000"]
+		}
+	],
+	"mainmenu":
+	{
+		"background": "mainmenu",
+		"buttons":
+		{
+			"multiplayer": {"type": 1, "mode": 0, "text": "MULTIPLAYER", "posx": 0, "posy": 0},
+			"singleplayer": {"type": 1, "mode": 0, "text": "SINGLEPLAYER", "posx": 0, "posy": 0},
+			"configuration": {"type": 1, "mode": 1, "text": "CONFIGURATION", "posx": 0, "posy": 0}
+		}
+	}
+}

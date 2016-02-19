@@ -1,0 +1,28 @@
+{
+	"buttons":
+	[
+		{
+			"name": "button_0", "width": 3, "height": 1,
+			"frames": [{"x": 0, "y": 0}, {"x": 1, "y": 0}, {"x": 2, "y": 0}]
+			"font": "neuropol-28", "colors": ["454545", "9B3500", "C35D00"]
+		},
+		{
+			"name": "button_1", "width": 1, "height": 3,
+			"frames": [{"x": 0, "y": 0}, {"x": 0, "y": 1}, {"x": 0, "y": 2}]
+			"font": "neuropol-20", "colors": ["454545", "9B3500", "C35D00"]
+		},
+		{
+			"name": "button_2", "width": 2, "height": 1,
+			"frames": [{"x": 0, "y": 0}, {"x": 1, "y": 0}]
+		}
+	],
+	"mainmenu":
+	{
+		"background": "mainmenu",
+		"buttons":
+		[
+			{"type": 0, "mode": 0, "link": "testfield", "text": "SINGLEPLAYER", "posx": 0, "posy": 0},
+			{"type": 0, "mode": 1, "link": "config", "text": "CONFIGURATION", "posx": 0, "posy": 0}
+		]
+	}
+}
