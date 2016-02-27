@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: jar:file:/C:/Users/David/Desktop/Steel%20Sentinels/SS2/Decompiler/jd-eclipse-site-1.0.0-RC2.zip!/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1450051671448'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='15764258'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='osgi.bundle' id='jd.ide.eclipse.plugin' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='jar:file:/C:/Users/David/Desktop/Steel%20Sentinels/SS2/Decompiler/jd-eclipse-site-1.0.0-RC2.zip!/plugins/jd.ide.eclipse.plugin_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='jd.ide.eclipse.feature' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='jar:file:/C:/Users/David/Desktop/Steel%20Sentinels/SS2/Decompiler/jd-eclipse-site-1.0.0-RC2.zip!/features/jd.ide.eclipse.feature_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

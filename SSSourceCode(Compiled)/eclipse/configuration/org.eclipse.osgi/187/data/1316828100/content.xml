@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='update site: jar:file:/C:/Users/David/Desktop/Steel%20Sentinels/SS2/Decompiler/jd-eclipse-site-1.0.0-RC2.zip!/' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1450051666124'/>
+    <property name='site.checksum' value='15764258'/>
+  </properties>
+  <references size='2'>
+    <repository uri='http://jd.benow.ca/jd-eclipse/update/' url='http://jd.benow.ca/jd-eclipse/update/' type='1' options='0'/>
+    <repository uri='http://jd.benow.ca/jd-eclipse/update/' url='http://jd.benow.ca/jd-eclipse/update/' type='0' options='0'/>
+  </references>
+  <units size='4'>
+    <unit id='jd.ide.eclipse.plugin' version='1.0.0' singleton='false'>
+      <update id='jd.ide.eclipse.plugin' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='jd.ide.eclipse.plugin' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='jd.ide.eclipse.plugin' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='jd.ide.eclipse.plugin' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: jd.ide.eclipse.plugin&#xA;Bundle-Version: 1.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='jar:file:/C:/Users/David/Desktop/Steel Sentinels/SS2/Decompiler/jd-eclipse-site-1.0.0-RC2.zip!/site.xml.JD-Eclipse' version='1.0.0.2--cCEqnh'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Java Decompiler Eclipse Plug-in'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='jar:file:/C:/Users/David/Desktop/Steel Sentinels/SS2/Decompiler/jd-eclipse-site-1.0.0-RC2.zip!/site.xml.JD-Eclipse' version='1.0.0.2--cCEqnh'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='jd.ide.eclipse.feature.feature.group' range='[1.0.0,1.0.0]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='jd.ide.eclipse.feature.feature.group' version='1.0.0' singleton='false'>
+      <update id='jd.ide.eclipse.feature.feature.group' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='JD-Eclipse Plug-in'/>
+        <property name='org.eclipse.equinox.p2.description' value='JD-Eclipse is a plug-in for the Eclipse platform. It allows you to display all the Java sources during your debugging process, even if you do not have them all.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/feature'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Java Decompiler'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='jd.ide.eclipse.feature.feature.group' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='jd.ide.eclipse.plugin' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='jd.ide.eclipse.feature.feature.jar' range='[1.0.0,1.0.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.gnu.org/licenses/gpl-3.0.html' url='http://www.gnu.org/licenses/gpl-3.0.html'>
+          .&#xA;                     GNU GENERAL PUBLIC LICENSE&#xA;&#xA;                       Version 3, 29 June 2007&#xA;&#xA;              &lt;http://www.gnu.org/licenses/gpl-3.0.html&gt;&#xA;&#xA;                     END OF TERMS AND CONDITIONS&#xA;&#xA;            How to Apply These Terms to Your New Programs&#xA;&#xA;  If you develop a new program, and you want it to be of the greatest&#xA;possible use to the public, the best way to achieve this is to make it&#xA;free software which everyone can redistribute and change under these terms.&#xA;&#xA;  To do so, attach the following notices to the program.  It is safest&#xA;to attach them to the start of each source file to most effectively&#xA;state the exclusion of warranty; and each file should have at least&#xA;the &quot;copyright&quot; line and a pointer to where the full notice is found.&#xA;&#xA;    JD-Eclipse is a plug-in for the Eclipse platform. It allows you to &#xA;    display all the Java sources during your debugging process, even if you &#xA;    do not have them all.&#xA;    Copyright (C) 2008-2015  Emmanuel Dupuy&#xA;&#xA;    This program is free software: you can redistribute it and/or modify&#xA;    it under the terms of the GNU General Public License as published by&#xA;    the Free Software Foundation, either version 3 of the License, or&#xA;    (at your option) any later version.&#xA;&#xA;    This program is distributed in the hope that it will be useful,&#xA;    but WITHOUT ANY WARRANTY; without even the implied warranty of&#xA;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xA;    GNU General Public License for more details.&#xA;&#xA;    You should have received a copy of the GNU General Public License&#xA;    along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.&#xA;&#xA;Also add information on how to contact you by electronic and paper mail.&#xA;&#xA;  If the program does terminal interaction, make it output a short&#xA;notice like this when it starts in an interactive mode:&#xA;&#xA;    JD-Eclipse  Copyright (C) 2008-2015  Emmanuel Dupuy&#xA;    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w&apos;.&#xA;    This is free software, and you are welcome to redistribute it&#xA;    under certain conditions; type `show c&apos; for details.&#xA;&#xA;The hypothetical commands `show w&apos; and `show c&apos; should show the appropriate&#xA;parts of the General Public License.  Of course, your program&apos;s commands&#xA;might be different; for a GUI interface, you would use an &quot;about box&quot;.&#xA;&#xA;  You should also get your employer (if you work as a programmer) or school,&#xA;if any, to sign a &quot;copyright disclaimer&quot; for the program, if necessary.&#xA;For more information on this, and how to apply and follow the GNU GPL, see&#xA;&lt;http://www.gnu.org/licenses/&gt;.&#xA;&#xA;  The GNU General Public License does not permit incorporating your program&#xA;into proprietary programs.  If your program is a subroutine library, you&#xA;may consider it more useful to permit linking proprietary applications with&#xA;the library.  If this is what you want to do, use the GNU Lesser General&#xA;Public License instead of this License.  But first, please read&#xA;&lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;.
+        </license>
+      </licenses>
+      <copyright>
+        Copyright (C) 2008-2015  Emmanuel Dupuy
+      </copyright>
+    </unit>
+    <unit id='jd.ide.eclipse.feature.feature.jar' version='1.0.0'>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='JD-Eclipse Plug-in'/>
+        <property name='org.eclipse.equinox.p2.description' value='JD-Eclipse is a plug-in for the Eclipse platform. It allows you to display all the Java sources during your debugging process, even if you do not have them all.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/feature'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Java Decompiler'/>
+        <property name='org.eclipse.update.feature.plugin' value='jd.ide.eclipse.plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='jd.ide.eclipse.feature.feature.jar' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='jd.ide.eclipse.feature' version='1.0.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='jd.ide.eclipse.feature' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.gnu.org/licenses/gpl-3.0.html' url='http://www.gnu.org/licenses/gpl-3.0.html'>
+          .&#xA;                     GNU GENERAL PUBLIC LICENSE&#xA;&#xA;                       Version 3, 29 June 2007&#xA;&#xA;              &lt;http://www.gnu.org/licenses/gpl-3.0.html&gt;&#xA;&#xA;                     END OF TERMS AND CONDITIONS&#xA;&#xA;            How to Apply These Terms to Your New Programs&#xA;&#xA;  If you develop a new program, and you want it to be of the greatest&#xA;possible use to the public, the best way to achieve this is to make it&#xA;free software which everyone can redistribute and change under these terms.&#xA;&#xA;  To do so, attach the following notices to the program.  It is safest&#xA;to attach them to the start of each source file to most effectively&#xA;state the exclusion of warranty; and each file should have at least&#xA;the &quot;copyright&quot; line and a pointer to where the full notice is found.&#xA;&#xA;    JD-Eclipse is a plug-in for the Eclipse platform. It allows you to &#xA;    display all the Java sources during your debugging process, even if you &#xA;    do not have them all.&#xA;    Copyright (C) 2008-2015  Emmanuel Dupuy&#xA;&#xA;    This program is free software: you can redistribute it and/or modify&#xA;    it under the terms of the GNU General Public License as published by&#xA;    the Free Software Foundation, either version 3 of the License, or&#xA;    (at your option) any later version.&#xA;&#xA;    This program is distributed in the hope that it will be useful,&#xA;    but WITHOUT ANY WARRANTY; without even the implied warranty of&#xA;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xA;    GNU General Public License for more details.&#xA;&#xA;    You should have received a copy of the GNU General Public License&#xA;    along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.&#xA;&#xA;Also add information on how to contact you by electronic and paper mail.&#xA;&#xA;  If the program does terminal interaction, make it output a short&#xA;notice like this when it starts in an interactive mode:&#xA;&#xA;    JD-Eclipse  Copyright (C) 2008-2015  Emmanuel Dupuy&#xA;    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w&apos;.&#xA;    This is free software, and you are welcome to redistribute it&#xA;    under certain conditions; type `show c&apos; for details.&#xA;&#xA;The hypothetical commands `show w&apos; and `show c&apos; should show the appropriate&#xA;parts of the General Public License.  Of course, your program&apos;s commands&#xA;might be different; for a GUI interface, you would use an &quot;about box&quot;.&#xA;&#xA;  You should also get your employer (if you work as a programmer) or school,&#xA;if any, to sign a &quot;copyright disclaimer&quot; for the program, if necessary.&#xA;For more information on this, and how to apply and follow the GNU GPL, see&#xA;&lt;http://www.gnu.org/licenses/&gt;.&#xA;&#xA;  The GNU General Public License does not permit incorporating your program&#xA;into proprietary programs.  If your program is a subroutine library, you&#xA;may consider it more useful to permit linking proprietary applications with&#xA;the library.  If this is what you want to do, use the GNU Lesser General&#xA;Public License instead of this License.  But first, please read&#xA;&lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;.
+        </license>
+      </licenses>
+      <copyright>
+        Copyright (C) 2008-2015  Emmanuel Dupuy
+      </copyright>
+    </unit>
+  </units>
+</repository>
