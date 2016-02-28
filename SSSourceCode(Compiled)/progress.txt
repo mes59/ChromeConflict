@@ -1,8 +1,0 @@
-first 43 files and smaller done
-
-DO NOT COUNT:
-109_t, 
-190_rh,
-296_kg
-
-ignore "astore, aloud, athrow"
