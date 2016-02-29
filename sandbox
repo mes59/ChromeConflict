@@ -1,1 +1,2 @@
+Rectangle rect = new Rectangle(50,1000);
 
